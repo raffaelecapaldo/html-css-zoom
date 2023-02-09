@@ -59,11 +59,17 @@ body {
     position:absolute;
     width: 100%;
     left:0;
-    bottom:-2px;
+    bottom:0px;
+
 
 }
 
 .userinfo span {
     background-color: rgba(80, 80, 80, 0.5);
     color:white;
+    padding:2px;
+}
+
+.userinfo i {
+    padding-right:6px;
 }
