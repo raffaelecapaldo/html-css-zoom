@@ -9,15 +9,21 @@
     --sharescreen:green;
     --appbackground:black;
     --maincolor:white;
+    --footercolor:#222222;
 }
 
 body {
-    background-color: black;;
+    background-color: black;
 }
 
 main {
-    width:96vw;
+    width:90vw;
     margin:0 auto;
+}
+
+footer {
+    background-color: var(--footercolor);
+    padding:7px;
 }
 /* CONTAINER OF THE WEBAPP */
 .wrapper {
@@ -35,7 +41,6 @@ main {
 
 .videocontrols {
     margin-top:20px;
-    margin-right:48px;
 }
 
 .videocontrols span  {
@@ -55,6 +60,7 @@ main {
         width: calc(100% / 7);
         padding-right:10px;
         padding-bottom:10px;
+        min-width: 230px;
     
 }
     
@@ -87,3 +93,44 @@ position:relative;
     padding-right:6px;
 }
 
+.callcontrols {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    color:var(--maincolor)
+
+}
+
+.callcontrols i {
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.select i {
+    font-size:5px;
+}
+
+.aflex {
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+.aflex p {
+    align-self: flex-end;
+}
+
+.containarrow {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-chevron-up:before {
+    content:"\f077";
+    font-size:11px;
+    padding-left:18px;
+}
+
+.m20 {
+    margin-left:28px;
+}
