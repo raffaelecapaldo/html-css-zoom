@@ -28,10 +28,20 @@
 .webfeeds {
     width: 96%;
     margin:0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    
 }
 
 .imgfeed {
     position:relative;
+    width: calc(100% / 7);
+    padding-right:10px;
+}
+
+.livefeed {
+    min-width: 50px;
+
 }
 
 .userinfo{
