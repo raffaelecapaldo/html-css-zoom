@@ -24,6 +24,7 @@ main {
 footer {
     background-color: var(--footercolor);
     padding:7px;
+    overflow: hidden;
 }
 /* CONTAINER OF THE WEBAPP */
 .wrapper {
@@ -131,6 +132,10 @@ position:relative;
     padding-left:18px;
 }
 
-.m20 {
+.m28 {
     margin-left:28px;
+}
+
+#green {
+    color:var(--sharescreen);
 }
