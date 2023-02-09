@@ -14,9 +14,13 @@
 body {
     background-color: black;;
 }
+
+main {
+    width:96vw;
+    margin:0 auto;
+}
 /* CONTAINER OF THE WEBAPP */
 .wrapper {
-    width: 100vw;
     height: 100vh;
     background-color: var(--appbackground);
 }
@@ -29,18 +33,33 @@ body {
     margin-bottom:20px;
 }
 
+.videocontrols {
+    margin-top:20px;
+    margin-right:48px;
+}
+
+.videocontrols span  {
+    padding:5px;
+    background-color: #4a4a4a;
+    border-radius:5px;
+}
+
+/* CONTAINER OF THE WEBCAMS */
 .webfeeds {
     margin:0 auto;
     display:flex;
     flex-wrap: wrap;
-        width:96vw;
-        margin:0 auto;
     }
-    
 
-.imgfeed {
+.livefeed {
+        width: calc(100% / 7);
+        padding-right:10px;
+        padding-bottom:10px;
     
-    position:relative;
+}
+    
+.imgfeed {
+position:relative;
 }
 
 .imgfeed img {
@@ -48,12 +67,6 @@ body {
     display:block;
 }
 
-.livefeed {
-    width: calc(100% / 7);
-    padding-right:10px;
-    padding-bottom:10px;
-
-}
 
 .userinfo{
     position:absolute;
@@ -66,10 +79,11 @@ body {
 
 .userinfo span {
     background-color: rgba(80, 80, 80, 0.5);
-    color:white;
+    color:var(--maincolor);
     padding:2px;
 }
 
 .userinfo i {
     padding-right:6px;
 }
+
