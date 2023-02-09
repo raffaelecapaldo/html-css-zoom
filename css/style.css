@@ -94,6 +94,7 @@ position:relative;
     padding-right:6px;
 }
 
+/* FOOTER CALL CONTROLS BUTTON */
 .callcontrols {
     display:flex;
     justify-content: space-between;
@@ -102,15 +103,25 @@ position:relative;
 
 }
 
+.buttoncontainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .callcontrols i {
     font-size:30px;
     margin-bottom:10px;
 }
 
-.select i {
-    font-size:5px;
+.closecall {
+    background-color: #4a4a4a;
+    padding:20px;
+    color:var(--closecall);
 }
 
+/* UTILITY FOOTER */
 .aflex {
     display:flex;
     flex-flow: column nowrap;
@@ -120,11 +131,6 @@ position:relative;
     align-self: flex-end;
 }
 
-.buttoncontainer {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .fa-chevron-up:before {
     content:"\f077";
@@ -140,8 +146,22 @@ position:relative;
     color:var(--sharescreen);
 }
 
-.closecall {
-    background-color: #4a4a4a;
-    padding:20px;
-    color:var(--closecall);
+/* HOVER EFFECTS FOOTER */
+i.g:hover {
+    color:green;
+}
+
+.aflex:hover{
+    color:yellow;
+    cursor:pointer;
+}
+
+.sharehover:hover {
+    color:var(--sharescreen);
+    cursor:pointer;
+}
+
+.closecall:hover {
+    background-color:var(--closecall);
+    color:var(--maincolor);
 }
