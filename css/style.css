@@ -164,4 +164,5 @@ i.g:hover {
 .closecall:hover {
     background-color:var(--closecall);
     color:var(--maincolor);
+    cursor:pointer;
 }
