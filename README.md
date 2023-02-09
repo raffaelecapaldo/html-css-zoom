@@ -3,4 +3,4 @@
 VIEW ON MOBILE (horizontal)
 
 
-[<img src="img/screen1.jpg">](http://example.com/),
+<img src="img/screen1.jpg">
