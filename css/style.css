@@ -8,10 +8,20 @@
     --closecall:red;
     --sharescreen:green;
     --appbackground:black;
+    --maincolor:white;
 }
-
+/* CONTAINER OF THE WEBAPP */
 .wrapper {
     width: 100vw;
     height: 100vh;
     background-color: var(--appbackground);
 }
+
+/* CONTAINER OF THE VIDEO CONTROLS */
+.topcontrols {
+    color:var(--maincolor);
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom:20px;
+}
+
